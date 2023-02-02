@@ -1,0 +1,1 @@
+# kawaii-qr-generator
