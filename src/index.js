@@ -2,14 +2,15 @@ import React, { useEffect, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 
 import AwesomeQRCode from './qr-generator'
+import cat from './cat.gif'
 
 const App = () => {
   const [gifArrayBuffer, setGifArrayBuffer] = useState('')
   useEffect(() => {
     (async () => {
-      const arrayBuffer = await fetch('/cat.gif').then((res) => res.arrayBuffer())
+      const arrayBuffer = await fetch(cat).then((res) => res.arrayBuffer())
       setGifArrayBuffer(arrayBuffer)
-      console.log('arrayBuffer', arrayBuffer)
+      //console.log('arrayBuffer', arrayBuffer)
     })()
   }, [])
   
