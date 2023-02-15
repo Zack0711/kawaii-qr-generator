@@ -6,10 +6,8 @@ const AwesomeQRCode = ({ options, onStateChange }) => {
   const [qrDataUri, setQrDataUri] = useState('')
 
   const generateQRDataUri = async (options) => {
-    console.log('generateQRDataUri')
     const instance = new AwesomeQR(options)
     const dataUri = await instance.draw()
-    console.log('dataUri', dataUri)
     setQrDataUri(dataUri)
   }
 

@@ -10,7 +10,6 @@ const App = () => {
     (async () => {
       const arrayBuffer = await fetch(cat).then((res) => res.arrayBuffer())
       setGifArrayBuffer(arrayBuffer)
-      //console.log('arrayBuffer', arrayBuffer)
     })()
   }, [])
   
