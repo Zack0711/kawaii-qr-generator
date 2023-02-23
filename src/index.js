@@ -1,36 +1,19 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { createRoot } from 'react-dom/client'
 
-import AwesomeQRCode from './qr-generator'
-import cat from './cat.gif'
+import CssBaseline from '@mui/material/CssBaseline'
+import { ThemeProvider } from '@mui/material/styles'
+
+import theme from './theme'
+
+import OptionForm from './components/option-form'
 
 const App = () => {
-  const [gifArrayBuffer, setGifArrayBuffer] = useState('')
-  useEffect(() => {
-    (async () => {
-      const arrayBuffer = await fetch(cat).then((res) => res.arrayBuffer())
-      setGifArrayBuffer(arrayBuffer)
-    })()
-  }, [])
-  
   return (
-    <div
-      style={{
-        width: "300px",
-        height: "300px",
-      }}
-    >
-    {
-      gifArrayBuffer && (
-        <AwesomeQRCode
-          options={{
-            text: 'https://www.facebook.com/',
-            gifBackground: gifArrayBuffer,
-          }}
-        />
-      )
-    }      
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <OptionForm />
+    </ThemeProvider>
   )
 }
 
