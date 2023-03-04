@@ -6,7 +6,7 @@ import { ThemeProvider } from '@mui/material/styles'
 
 import theme from './theme'
 
-import OptionForm from './components/option-form'
+import OptionForm from './components/OptionForm'
 
 const App = () => {
   return (

@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-loader", "virtual:ca09af7963adce5370767bae30ee8aa0e02d1b47b209a5ca28032a5121658d35a6d0989029a0bd4e00279b09ce693d30648977d76ca3bcfe96596b03b8390f06#npm:8.3.0"],\
             ["browserslist", "npm:4.21.5"],\
             ["core-js", "npm:3.25.2"],\
+            ["cropperjs", "npm:1.5.13"],\
             ["css-loader", "virtual:ca09af7963adce5370767bae30ee8aa0e02d1b47b209a5ca28032a5121658d35a6d0989029a0bd4e00279b09ce693d30648977d76ca3bcfe96596b03b8390f06#npm:6.7.3"],\
             ["html-loader", "virtual:ca09af7963adce5370767bae30ee8aa0e02d1b47b209a5ca28032a5121658d35a6d0989029a0bd4e00279b09ce693d30648977d76ca3bcfe96596b03b8390f06#npm:4.2.0"],\
             ["html-webpack-plugin", "virtual:ca09af7963adce5370767bae30ee8aa0e02d1b47b209a5ca28032a5121658d35a6d0989029a0bd4e00279b09ce693d30648977d76ca3bcfe96596b03b8390f06#npm:5.5.0"],\
@@ -4518,6 +4519,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["cropperjs", [\
+        ["npm:1.5.13", {\
+          "packageLocation": "./.yarn/cache/cropperjs-npm-1.5.13-68c8d6861d-5a3d0f8b2a.zip/node_modules/cropperjs/",\
+          "packageDependencies": [\
+            ["cropperjs", "npm:1.5.13"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["cross-spawn", [\
         ["npm:7.0.3", {\
           "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.3-e4ff3e65b3-671cc7c728.zip/node_modules/cross-spawn/",\
@@ -6380,6 +6390,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-loader", "virtual:ca09af7963adce5370767bae30ee8aa0e02d1b47b209a5ca28032a5121658d35a6d0989029a0bd4e00279b09ce693d30648977d76ca3bcfe96596b03b8390f06#npm:8.3.0"],\
             ["browserslist", "npm:4.21.5"],\
             ["core-js", "npm:3.25.2"],\
+            ["cropperjs", "npm:1.5.13"],\
             ["css-loader", "virtual:ca09af7963adce5370767bae30ee8aa0e02d1b47b209a5ca28032a5121658d35a6d0989029a0bd4e00279b09ce693d30648977d76ca3bcfe96596b03b8390f06#npm:6.7.3"],\
             ["html-loader", "virtual:ca09af7963adce5370767bae30ee8aa0e02d1b47b209a5ca28032a5121658d35a6d0989029a0bd4e00279b09ce693d30648977d76ca3bcfe96596b03b8390f06#npm:4.2.0"],\
             ["html-webpack-plugin", "virtual:ca09af7963adce5370767bae30ee8aa0e02d1b47b209a5ca28032a5121658d35a6d0989029a0bd4e00279b09ce693d30648977d76ca3bcfe96596b03b8390f06#npm:5.5.0"],\

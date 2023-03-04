@@ -3044,6 +3044,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cropperjs@npm:^1.5.13":
+  version: 1.5.13
+  resolution: "cropperjs@npm:1.5.13"
+  checksum: 5a3d0f8b2aa41eb711371696ccbac040d7ef81a5fc9cc0304aaf5691f9aa5c243b539c3d8aec0f938e8fa11e73507ae082875b262ff7fd069892acfcd5d5b567
+  languageName: node
+  linkType: hard
+
 "cross-spawn@npm:^7.0.3":
   version: 7.0.3
   resolution: "cross-spawn@npm:7.0.3"
@@ -4616,6 +4623,7 @@ __metadata:
     babel-loader: ^8.2.5
     browserslist: ^4.21.4
     core-js: 3.25.2
+    cropperjs: ^1.5.13
     css-loader: ^6.7.1
     html-loader: ^4.2.0
     html-webpack-plugin: ^5.5.0

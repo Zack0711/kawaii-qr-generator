@@ -14,6 +14,22 @@ const theme = createTheme({
       main: red.A400,
     },
   },
+  components: {
+    MuiTab: {
+      styleOverrides: {
+        root: {
+          minHeight: '48px',
+        },
+      },
+    },
+    MuiTextField: {
+      styleOverrides: {
+        root: {
+          margin: '8px 0',
+        },
+      },
+    },
+  },
 })
 
 export default theme
